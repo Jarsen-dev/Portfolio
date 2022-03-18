@@ -70,6 +70,7 @@ main {
     width: 100%;
     padding: 60px 30px;
     border-bottom: 3px double #1c1c1c;
+    text-align: center;
 }
 .main--about-me h1 {
     font-size: 2rem;
@@ -91,8 +92,18 @@ main {
     align-items: center;
     width: 100%;
     height: auto;
-    padding: 60px 0;
+    padding: 30px 0 20px 0;
     border-bottom: 3px double #1c1c1c;
+}
+.main--projects-container h2 {
+    align-self: flex-start;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0 0 20px 30px;
+    color: #F7F7F7;
+}
+.main--projects-container h2 span {
+    border-bottom: 2px solid #1C1C1C;
 }
 .main--hyperlink-tarjet {
     background-color: #F7F7F7;
@@ -131,4 +142,114 @@ main {
 }
 .tarjet--text-container p {
     font-size: 1.4rem;
+}
+.main--skills-container {
+    width: 100%;
+    height: auto;
+    padding: 30px 0 0 0;
+    border-bottom: 3px double #1c1c1c;
+}
+.main--skills-container h3 {
+    align-self: flex-start;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0 0 20px 30px;
+    color: #F7F7F7;
+}
+.main--skills-container h3 span {
+    border-bottom: 2px solid #1C1C1C;
+}
+.skills--container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.skills--logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    background-color: #F7F7F7;
+    border-radius: 50%;
+    box-shadow: 0px 4px 8px rgba(37, 37, 37, 0.16);
+}
+.skills--logo-container .git {
+    width: 65%;
+    height: 65%;
+}
+.skills--logo-container .html {
+    width: 80%;
+    height: 80%;
+}
+.skills--logo-container .css {
+    width: 55%;
+    height: 55%;
+}
+.skills--container p {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #1C1C1C;
+    margin: 5px 0 30px 0;
+}
+.main--form-container {
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 30px 0 20px 0;
+}
+.main--form-container h4 {
+    align-self: flex-start;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0 0 20px 30px;
+    color: #F7F7F7;
+}
+.main--form-container h4 span {
+    border-bottom: 2px solid #1C1C1C;
+}
+.contact--form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact--form-container p {
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #1C1C1C;
+    margin-bottom: 15px;
+}
+.contact--form-container .input--name,
+.contact--form-container .input--email {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #F7F7F7;
+    width: 75vw;
+    height: 20px;
+    margin-bottom: 15px;
+}
+.contact--form-container .input--message {
+    background-color: transparent;
+    border: 1px solid #F7F7F7;
+    width: 75vw;
+    height: 120px;
+    margin-bottom: 15px;
+}
+.input--name::placeholder,
+.input--email::placeholder {
+    color: #F7F7F7;
+    padding: 0 0 8px 5px;
+}
+.contact--form-button {
+    width: 250px;
+    height: 35px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;
+    background-color: #808080;
+    color: var(--white);
+    box-shadow: 0px 4px 8px rgba(37, 37, 37, 0.16);
 }
