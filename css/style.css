@@ -57,7 +57,7 @@ header {
     width: 13px;
     height: 8px;
     margin-left: 10px;
-    background-image: url('./assets/icons/arrow-down.svg');
+    background-image: url('../assets/icons/arrow-down.svg');
 }
 main {
     width: 100%;
@@ -78,7 +78,7 @@ main {
     color: #F7F7F7;
     margin-bottom: 10px;
 }
-.main--about-me span {
+.main--about-me h1 span {
     color: #1C1C1C;
 }
 .main--about-me p {
@@ -165,6 +165,9 @@ main {
     justify-content: center;
     align-items: center;
 }
+.skill--box {
+    text-align: center;
+}
 .skills--logo-container {
     display: flex;
     justify-content: center;
@@ -197,7 +200,7 @@ main {
     align-items: center;
     width: 100%;
     height: auto;
-    padding: 30px 0 20px 0;
+    padding: 30px 0 45px 0;
 }
 .main--form-container h4 {
     align-self: flex-start;
@@ -227,6 +230,7 @@ main {
     border: none;
     border-bottom: 1px solid #F7F7F7;
     width: 75vw;
+    max-width: 450px;
     height: 20px;
     margin-bottom: 15px;
 }
@@ -234,6 +238,7 @@ main {
     background-color: transparent;
     border: 1px solid #F7F7F7;
     width: 75vw;
+    max-width: 450px;
     height: 120px;
     margin-bottom: 15px;
 }
@@ -252,4 +257,32 @@ main {
     background-color: #808080;
     color: var(--white);
     box-shadow: 0px 4px 8px rgba(37, 37, 37, 0.16);
+}
+footer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+    background-blend-mode: multiply;
+    width: 100%;
+    min-width: 320px;
+    height: 100px;
+}
+.footer--my-logo img {
+    position: absolute;
+    left: calc(50% - 37.5px);
+    top: calc(0% - 37.5px);
+    display: block;
+    width: 75px;
+    height: 75px;
+}
+.footer--social-logos {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.footer--social-logos img {
+    width: 30px;
+    height: 30px;
 }
