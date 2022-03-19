@@ -1,0 +1,60 @@
+header {
+    flex-direction: column;
+    justify-content: flex-start;
+    height: auto;
+}
+.header--navbar-section {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 40px;
+}
+.logo--desktop {
+    width: 185px;
+    height: 60px;
+    margin-left: 50px;
+}
+.logo--desktop img {
+    display: list-item;
+    width: 100%;
+    height: 100%;
+}
+.header--navbar {
+    display: list-item;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header--navbar ul {
+    list-style: none;
+    display: flex;
+}
+.header--navbar ul li {
+    margin-right: 30px;
+}
+.header--navbar a {
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: #f7f7f7;
+}
+.header--about-me {
+    display: list-item;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header--about-me img {
+    width: 400px;
+    height: 300px;
+}
+.logo--mobile {
+    display: none;
+}
+.header--button {
+    display: none;
+}
+.main--about-me {
+    display: none;
+}

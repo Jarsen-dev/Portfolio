@@ -29,7 +29,13 @@ header {
 .header--navbar {
     display: none;
 }
-.logo img{
+.header--about-me {
+    display: none;
+}
+.logo--desktop img {
+    display: none;
+}
+.logo--mobile img{
     width: 350px;
     height: 350px;
 }

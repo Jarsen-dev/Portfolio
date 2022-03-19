@@ -13,19 +13,33 @@
     <title>JARSEN PORTFOLIO</title>
 </head>
 <body>
-    <header>
-        <figure class="logo">
-            <img src="./assets/img/JARSEN.png" alt="logo">
-        </figure>
-        <nav class="header--navbar">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-        <a href="#" class="header--button">Know my projects <span></span> </a>
+    <header id="home">
+        <section class="header--navbar-section">
+            <figure class="logo--desktop">
+                <img src="./assets/img/JARSEN-desktop.png" alt="logo">
+            </figure>
+            <figure class="logo--mobile">
+                <img src="./assets/img/JARSEN.png" alt="logo">
+            </figure>
+            <nav class="header--navbar">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </section>
+        <section class="header--about-me">
+            <figure>
+                <img src="./assets/img/developer.png" alt="developer">
+            </figure>
+            <div>
+                <h1>Hi, I'm <span>Armando</span> Alvarez</h1>
+                <p>I've been a frontend developer for a couple of months and on this website I'll show you a bit of what I can do and the personal projects I've done, feel free to leave me a message at the end.</p>
+            </div>
+        </section>
+        <a href="#projects" class="header--button">Know my projects <span></span> </a>
     </header>
     <main>
         <section class="main--about-me">
@@ -34,7 +48,7 @@
                 <p>I've been a frontend developer for a couple of months and on this website I'll show you a bit of what I can do and the personal projects I've done, feel free to leave me a message at the end.</p>
             </div>
         </section>
-        <section class="main--projects-container">
+        <section class="main--projects-container" id="projects">
             <h2><span>My</span> Portfolio</h2>
             <div class="main--project-tarjet">
                 <a href="#" class="main--hyperlink-tarjet">
@@ -60,7 +74,7 @@
                 </a>
             </div>
         </section>
-        <section class="main--skills-container">
+        <section class="main--skills-container" id="skills">
             <h3><span>Sk</span>ills</h3>
             <section class="skills--container">
                 <div class="skill--box">
@@ -83,7 +97,7 @@
                 </div>
             </section>
         </section>
-        <section class="main--form-container">
+        <section class="main--form-container" id="contact">
             <h4><span>Co</span>ntact</h4>
             <form class="contact--form-container" action="">
                 <p>Send me a message...</p>
