@@ -38,6 +38,9 @@ header {
     font-size: 1.8rem;
     color: #f7f7f7;
 }
+.header--navbar A:hover {
+    border-bottom: 1px solid #F7F7F7;
+}
 .header--about-me {
     display: list-item;
     width: 100%;
