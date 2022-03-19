@@ -218,6 +218,9 @@ main {
 .main--form-container h4 span {
     border-bottom: 2px solid #1C1C1C;
 }
+.form--desktop-box figure img{
+    display: none;
+}
 .contact--form-container {
     display: flex;
     flex-direction: column;

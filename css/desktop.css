@@ -1,7 +1,7 @@
 header {
     flex-direction: column;
     justify-content: flex-start;
-    height: auto;
+    height: 600px;
 }
 .header--navbar-section {
     display: flex;
@@ -40,14 +40,32 @@ header {
 }
 .header--about-me {
     display: list-item;
+    width: 100%;
     list-style: none;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
 .header--about-me img {
+    width: 600px;
+    height: 400px;
+}
+.about--text-container {
     width: 400px;
-    height: 300px;
+    align-self: flex-start;
+}
+.about--text-container h1 {
+    font-size: 4.8rem;
+    font-weight: bold;
+    color: #f7f7f7;
+}
+.about--text-container h1 span {
+    color: #989898;
+}
+.about--text-container p {
+    font-size: 2.2rem;
+    font-weight: 500;
+    color: #989898;
 }
 .logo--mobile {
     display: none;
@@ -57,4 +75,47 @@ header {
 }
 .main--about-me {
     display: none;
+}
+.main--projects-container h2 {
+    font-size: 2.6rem;
+    margin-left: 60px;
+}
+.main--skills-container h3 {
+    font-size: 2.6rem;
+    margin-left: 60px;
+}
+.main--form-container h4 {
+    font-size: 2.6rem;
+    margin-left: 60px;
+}
+.form--desktop-box {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.form--desktop-box figure img {
+    display: list-item;
+    width: 300px;
+    height: 300px;
+}
+.contact--form-container {
+    margin-top: 30px;
+}
+.contact--form-container p {
+    font-size: 2.6rem;
+}
+.contact--form-container .input--name,
+.contact--form-container .input--email {
+    max-width: 600px;
+}
+.contact--form-container .input--message {
+    max-width: 600px;
+    height: 160px;
+}
+.contact--form-button {
+    width: 300px;
+    height: 40px;
+    font-size: 1.8rem;
+    border-radius: 20px;
 }
